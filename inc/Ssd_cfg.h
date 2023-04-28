@@ -1,0 +1,25 @@
+
+
+#ifndef INC_SSD_CFG_H_
+#define INC_SSD_CFG_H_
+
+#define SSD_COM_ANODE 1
+#define SSD_COM_CATHODE 2
+
+/* Configuration */
+#define SSD_TYPE SSD_COM_CATHODE
+
+#define SSD_PIN_A   DIO_PORTA,DIO_PIN0
+#define SSD_PIN_B   DIO_PORTA,DIO_PIN1
+#define SSD_PIN_C   DIO_PORTA,DIO_PIN2
+#define SSD_PIN_D   DIO_PORTA,DIO_PIN3
+#define SSD_PIN_E   DIO_PORTA,DIO_PIN4
+#define SSD_PIN_F   DIO_PORTD,DIO_PIN5
+#define SSD_PIN_G   DIO_PORTD,DIO_PIN6
+#define SSD_PIN_DOT DIO_PORTD,DIO_PIN7
+
+
+
+
+
+#endif /* INC_SSD_CFG_H_ */
